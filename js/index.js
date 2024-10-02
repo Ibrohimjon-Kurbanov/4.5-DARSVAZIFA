@@ -143,28 +143,34 @@
 // let num1 = +prompt("1-sonni kiriting:");
 // let num2 = +prompt("2-sonni kiriting:");
 
-// let res = 0;
-
-// if (num1 == num2) {
-//     res = num1 + num2;
-// }else{
-//     res = 0;
+// if (num1 != num2) {
+//   num1 = num1 + num2;
+//   num2 = num1;
+// } else {
+//   num1 = 0;
+//   num2 = 0;
 // }
 
-// console.log(res);
+// console.log(num1);
+// console.log(num2);
 
 // IF 11-MASALA
 // let num1 = +prompt("1-sonni kiriting:");
 // let num2 = +prompt("2-sonni kiriting:");
 
-// let max = 0;
-
-// if (num1 > num2 ) {
+// if (num1 != num2) {
+//   let max;
+//   if (num1 > num2) {
 //     max = num1;
-// }else if (num1 < num2) {
+//   } else {
 //     max = num2;
-// }else{
-//     max = 0;
+//   }
+
+//   num1 = max;
+//   num2 = max;
+// } else {
+//   num1 = 0;
+//   num2 = 0;
 // }
 
 // console.log(max);
